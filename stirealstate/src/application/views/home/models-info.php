@@ -9,39 +9,39 @@
                 <div class="swiper-container-multiple-2">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="panel panel-default">
-                        <div class="panel-img">
-                          <img class="img-responsive" alt="" src="http://placehold.it/800x400">
+                      <div class="card">
+                        <img src="http://placehold.it/800x400" class="card-img-top img-fluid" alt="Modelo #?">
+                        <div class="card-body">
+                          <h3 class="card-title">Nombre del modelo</h3>
+                          <button class="btn btn-inverted-out">Ver detalles</button>
                         </div>
-                        <div class="panel-body"><h3>Nombre del modelo</h3></div>
-                        <div class="panel-footer"><button class="btn btn-inverted-out">Ver detalles</button></div>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="panel panel-default">
-                        <div class="panel-img">
-                          <img class="img-responsive" alt="" src="http://placehold.it/800x400">
+                      <div class="card">
+                        <img src="http://placehold.it/800x400" class="card-img-top img-fluid" alt="Modelo #?">
+                        <div class="card-body">
+                          <h3 class="card-title">Nombre del modelo</h3>
+                          <button class="btn btn-inverted-out">Ver detalles</button>
                         </div>
-                        <div class="panel-body"><h3>Nombre del modelo</h3></div>
-                        <div class="panel-footer"><button class="btn btn-inverted-out">Ver detalles</button></div>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="panel panel-default">
-                        <div class="panel-img">
-                          <img class="img-responsive" alt="" src="http://placehold.it/800x400">
+                      <div class="card">
+                        <img src="http://placehold.it/800x400" class="card-img-top img-fluid" alt="Modelo #?">
+                        <div class="card-body">
+                          <h3 class="card-title">Nombre del modelo</h3>
+                          <button class="btn btn-inverted-out">Ver detalles</button>
                         </div>
-                        <div class="panel-body"><h3>Nombre del modelo</h3></div>
-                        <div class="panel-footer"><button class="btn btn-inverted-out">Ver detalles</button></div>
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="panel panel-default">
-                        <div class="panel-img">
-                          <img class="img-responsive" alt="" src="http://placehold.it/800x400">
+                      <div class="card">
+                        <img src="http://placehold.it/800x400" class="card-img-top img-fluid" alt="Modelo #?">
+                        <div class="card-body">
+                          <h3 class="card-title">Nombre del modelo</h3>
+                          <button class="btn btn-inverted-out">Ver detalles</button>
                         </div>
-                        <div class="panel-body"><h3>Nombre del modelo</h3></div>
-                        <div class="panel-footer"><button class="btn btn-inverted-out">Ver detalles</button></div>
                       </div>
                     </div>
                   </div>

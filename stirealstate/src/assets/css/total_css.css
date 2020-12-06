@@ -124,20 +124,14 @@ button.btn-inverted-out:hover{
 }
 
 /* Modelos */
-.panel{
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.card {
+    border: none !important;
+    width: auto;
+    border-radius: 0 !important;
 }
 
-.panel-body{
-    padding: 0px 0px 0px 0px;
-}
-
-.panel-footer{
-    border: none;
-    background-color: #fff;
-    padding: 10px 0px 0px 0px;
+.card > .card-body{
+    padding-left: 0;
 }
 
 /* Cita */
