@@ -134,6 +134,11 @@ button.btn-inverted-out:hover{
     padding-left: 0;
 }
 
+/* Amenidades */
+#amenidades-info > .swiper-slide > a{
+    color: #000 !important;
+}
+
 /* Cita */
 .cita{
     margin-top: 50px;
