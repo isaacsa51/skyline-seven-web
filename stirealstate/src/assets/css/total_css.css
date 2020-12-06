@@ -73,11 +73,15 @@ button.btn-inverted-out:hover{
     padding: 16px;
 }
 
+.navbar-inverse > button.navbar-toggler { 
+    background-color: #202020;
+}
+
 .navbar-inverse.scrolled{
     background-color: #2C2C2C !important;
 }
 
-.navbar-inverse .navbar-nav > li > a.active{
+.navbar-inverse .navbar-nav > li > a.activo{
     border-bottom: 2px solid #fff;
 }
 
