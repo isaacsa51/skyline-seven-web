@@ -1,0 +1,8 @@
+/*div.input{border: solid 2px transparent;box-sizing: border-box;transition:all 0.3s ease 0s;-webkit-transition:all 0.3s ease 0s;}*/
+*[data-landing-input],*[data-landing-image], *[data-landing-attraction]{border: solid 2px transparent;box-sizing: border-box;transition:all 0.3s ease 0s;-webkit-transition:all 0.3s ease 0s;cursor: pointer;}
+trans[data-landing-input]{border:0px; word-break: break-word;}
+trans[data-landing-input].focused{border: 0px;background: #ff000066;}
+*[data-landing-image].focused, *[data-landing-attraction].focused{border: solid 2px red;}
+body{
+    overflow-x:hidden;
+}

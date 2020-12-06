@@ -1,0 +1,719 @@
+.menuheader{
+	margin: 17px 0px 0px 20%;
+	width: 800px;
+	height: 50px;
+}
+
+.lista > li > a{
+	background-color: #2a2c32;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: block;
+	font-size: 16px;
+}
+
+.lista > li{
+	float:left;
+}
+
+.lista > li > a:hover{
+	background-color: #434343;
+}
+
+.lista li div{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+	z-index: 2;
+	background-color: #fff;
+}
+
+.lista li:hover > .departamentoMenu{
+	display: block;
+}
+
+.departamentoMenu {
+/*	background-color: #000;
+	color: #fff;*/
+	width: 540px;
+	font-size: 14px;
+	padding: 5px 10px;
+	border: 1px solid #c9cece;
+}
+
+.listaCategoria > li{
+	/*background-color: blue;*/
+	display: inline-block;
+	margin-right: 5px;
+	/*padding-right: 90px;*/
+	vertical-align: top;
+	width: 31.7%;
+}
+
+/*.listaCategoria > li > a{
+	background-color: #fff;
+	color: #000;
+	margin: 50px 0px;
+	display: block;
+	margin: 4px 0px 7px 0px;
+	font-weight: bold;
+}*/
+
+.categoria1 > a{
+	/*background-color: #fff;*/
+	color: #000;
+	margin: 50px 0px;
+	display: block;
+	margin: 4px 0px 9px 0px;
+	font-weight: bold;
+}
+
+.categoria2 > a{
+	/*background-color: #fff;*/
+	color: #000;
+	margin: 50px 0px;
+	display: block;
+	margin: 7px 0px;
+}
+
+.listaSubCategoria li a{
+	color: #000;
+	margin: 8px 0px;
+	display: block;
+}
+
+
+
+
+
+.principal{
+	margin-top: 10px; 
+}
+
+.filtro > h3, .filtrosAplicados > h3{
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.filtro{
+	width: 20%;
+	z-index: 0;
+	float: left;
+}
+
+.tituloFiltro{
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+.menuFiltro{
+	margin-left: 13px;
+}
+
+.seleccionarFaceta li label{
+	cursor: pointer;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+.seleccionarFaceta li {
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+.seleccionarFaceta li a{
+	color: #000;
+}
+
+.seleccionarFaceta li label:hover, .filtrosAplicados ul li .filtroName:hover{
+	text-decoration: underline;
+}
+
+.seleccionarFaceta input{
+	margin-right: 4px;
+}
+
+.a{
+	text-decoration: none;
+}
+
+
+.contenido{
+	/*background-color: blue;*/
+	width: 80%;
+	float: left;
+	padding: 0 10px;
+}
+
+.encabezadoMigajas{
+	width: 100%;
+	position: relative;
+	display: none;
+	padding: 3px 0 4px 5px;
+	border-bottom: 1px solid #d3d3d3;
+	margin-bottom: 0;
+}
+
+.encabezadoMigajas ul li, p{
+	display: inline;
+	font-size: 0.85em;
+	margin:0;
+}
+
+.encabezadoMigajas  p{
+	display: inline;
+	font-size: 1em;
+	margin:0;
+}
+
+.encabezadoMigajas ul li a{
+	text-decoration: none;
+	cursor: text;
+	color: #2b368d;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.current{
+	color: #000000;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.divider{
+	margin: 0 6px;
+	color: #2b368d;
+	font-size: 12px;
+}
+
+.tituloEncabezado{
+	border-bottom: medium none;
+}
+
+.tituloH1{
+	padding: 20px 0 !important;
+	display: inline-block;
+	font-size: 1.14em !important;
+	font-weight: bold !important;
+	margin: 0;
+}
+
+.tituloEncabezado span{
+	color: #2b368d;
+	border-left: 1px solid #343434;
+	padding-left: 13px;
+	margin-left: 13px;
+	font-size: 1.14em;
+	font-weight: bold;
+}
+
+.titulo{
+	color: #333;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 18px 0;
+	text-transform: none;
+}
+
+.numeroproductos{
+	font-weight: 300;
+	text-transform: lowercase;
+	color: #000;
+}
+
+.barraHeader{
+	display: block;
+}
+
+.controles{
+	float: left;
+}
+
+.controles > *{
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.sortingcotroles{
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.ordenarporlabel{
+	margin-right: 5px;
+}
+
+.sortingcotroles > span, .sortingcotroles > span > label{
+	font-size: 16px !important;
+	vertical-align: middle;
+	color: #000;
+	text-transform: none;
+	margin-bottom: 0 !important;
+	font-weight: 100 !important;
+}
+
+.selectWraper{
+	margin-right: 10px;
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+}
+
+
+.selectnumeros1{
+	height: 40px;
+	padding: 0 30px 0 10px;
+	font-weight: bold;
+	background-size: 10px auto;
+	background-repeat: no-repeat;
+	background-position: center right 15px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.selectnumeros2{
+	height: 40px;
+	padding: 0 15px 0 5px;
+	font-weight: bold;
+	background-size: 10px auto;
+	background-repeat: no-repeat;
+	background-position: center right 15px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.paginacontroles *{
+	/*display: inline-block;*/
+	vertical-align: middle;
+	color: #000;
+}
+
+.paginacontroles a{
+	text-decoration: none;
+}
+
+.paginacontrolmenu{
+
+}
+
+.pagecontrolwraper{
+	display: inline-block;
+	vertical-align: middle;
+}
+.paginaControl a{
+	text-decoration: none;
+	/*display: inline-block;*/
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.grid{
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+
+.grid li{
+	padding-top: 0;
+}
+
+.producto{
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 0;
+	position: relative;
+	text-align: center;
+	color: transparent;
+}
+
+.producto .imagen img{
+	height: auto;
+	width: 100%;
+	max-width: 300px;
+	margin:0 auto 0px;
+}
+
+.productos{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.informacionproducto{
+	float: none;
+	width: 100%;
+}
+
+.productonombre{
+	/*padding: 10px 20px 5px 0px;*/
+	height: 34px;
+	overflow: hidden;
+}
+
+.informacionproducto > .productonombre a{
+    display: block;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    height: 34px;
+    overflow: hidden;
+    width: 100%;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.productoprecio{
+	text-align: left;
+	padding: 5px;
+	display: block;
+	margin: auto;
+	max-width: 300px;
+	width: 100%;
+	height: 47px;
+}
+
+.precio{
+	font-size: 18px;
+	font-weight: 550;
+	color: #666;
+}
+
+.informacionproducto a{
+	text-decoration: none;
+}
+
+.grid li, .listaMigajas{
+	display: inline-block;
+}
+
+
+
+.marcado{
+	background-color: #cbcbcb;
+	/*background-color: #8d9198;*/
+	boder: 1px solid #fff;
+}
+
+.marcado .producto .informacionproducto .productonombre h4 a, .marcado .producto .informacionproducto a span{
+	color: #fff;
+}
+
+.x{
+	cursor: pointer;
+	color: #f44b46;
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.listaSeleccionada li{
+	padding: 2.5px 2px; 
+	cursor: default;
+}
+
+
+.listaSeleccionada li:hover{
+  color:#fff;
+  background-color: #a0a0a0;
+}
+
+.borrarTodo{
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+
+.filtrosAplicados ul li .filtroName{
+	cursor: pointer;
+}
+
+.paginaseleccionada, .paginaControl a:hover{
+	color:#3aa6fd;
+}
+
+
+.selectTodo{
+	display: inline-block;
+	float: right;
+}
+
+.selectTodo label{
+	cursor: pointer;
+}
+
+
+.li-marcado{
+  background-color: #d2d2d2;
+}
+
+/*PARA PANTALLA DE CONFIG PRODUCTOS*/
+.sugerencias{
+    position: absolute;
+    z-index: 1001;
+    background: #fff;
+    min-width: 300px;
+    border: 1px solid #c9cece;
+    width: 24%;
+    display: none;
+    padding-left: 4px; 
+}
+
+.sugerencias ul{
+  display: none;
+}
+
+.sugerencias .liOpcion{
+  cursor: pointer;
+  padding-left: 10px;
+}
+.sugerenciasDPS{
+    position: absolute;
+    z-index: 1001;
+    background: #fff;
+    min-width: 300px;
+    border: 1px solid #c9cece;
+    width: 24%;
+    display: none;
+    padding-left: 4px; 
+}
+
+.sugerenciasDPS ul{
+  display: none;
+}
+
+.sugerenciasDPS .liOpcion{
+  cursor: pointer;
+  padding-left: 10px;
+}
+#form-buscar-productos{
+  width: 100%;
+  margin: 30px 0 25px 0;
+}
+
+.titulo-sin-productos{
+  max-width: 1280px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.fondo-modal{
+	width: 100%; height: 100%;margin: 0;background-color: #000;z-index: 20;position: fixed;top: 0;right: 0;bottom: 0;left: 0;opacity: .5;display: block;
+}
+
+/*CARGANDO*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #555;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1.5s linear infinite; /* Safari */
+  animation: spin 1.5s linear infinite;
+  margin: auto;
+  z-index: 30;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.filtro > h3, .filtrosAplicadosDPS > h3{
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.seleccionarFacetaDPS li label:hover, .filtrosAplicadosDPS ul li .filtroName:hover{
+	text-decoration: underline;
+}
+
+.tituloFiltroDPS{
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+.menuFiltroDPS{
+	margin-left: 13px;
+}
+
+.seleccionarFacetaDPS li label{
+	cursor: pointer;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+.seleccionarFacetaDPS li {
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+.seleccionarFacetaDPS li a{
+	color: #000;
+}
+
+.seleccionarFacetaDPS li label:hover, .filtrosAplicadosDPS ul li .filtroNameDPS:hover{
+	text-decoration: underline;
+}
+
+.seleccionarFacetaDPS input{
+	margin-right: 4px;
+}
+
+.encabezadoMigajasDPS{
+	width: 100%;
+	position: relative;
+	display: none;
+	padding: 3px 0 4px 5px;
+	border-bottom: 1px solid #d3d3d3;
+	margin-bottom: 0;
+}
+
+.encabezadoMigajasDPS ul li, p{
+	display: inline;
+	font-size: 0.85em;
+	margin:0;
+}
+
+.encabezadoMigajasDPS  p{
+	display: inline;
+	font-size: 1em;
+	margin:0;
+}
+
+.encabezadoMigajasDPS ul li a{
+	text-decoration: none;
+	cursor: text;
+	color: #2b368d;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.sortingcotrolesDPS{
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.sortingcotrolesDPS > span, .sortingcotrolesDPS > span > label{
+	font-size: 16px !important;
+	vertical-align: middle;
+	color: #000;
+	text-transform: none;
+	margin-bottom: 0 !important;
+	font-weight: 100 !important;
+}
+
+
+.selectnumeros1DPS{
+	height: 40px;
+	padding: 0 30px 0 10px;
+	font-weight: bold;
+	background-size: 10px auto;
+	background-repeat: no-repeat;
+	background-position: center right 15px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.selectnumeros2DPS{
+	height: 40px;
+	padding: 0 15px 0 5px;
+	font-weight: bold;
+	background-size: 10px auto;
+	background-repeat: no-repeat;
+	background-position: center right 15px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+
+}
+.paginaseleccionadaDPS, .paginaControlDPS a:hover{
+	color:#3aa6fd;
+}
+
+.paginaControlDPS a{
+	text-decoration: none;
+	/*display: inline-block;*/
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.tituloDPS{
+	color: #333;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 18px 0;
+	text-transform: none;
+}
+
+.listaSeleccionadaDPS li{
+	padding: 2.5px 2px; 
+	cursor: default;
+}
+
+
+.listaSeleccionadaDPS li:hover{
+  color:#fff;
+  background-color: #a0a0a0;
+}
+
+
+.listaDPS > li > a{
+	background-color: #2a2c32;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: block;
+	font-size: 16px;
+}
+
+.listaDPS > li{
+	float:left;
+}
+
+.listaDPS > li > a:hover{
+	background-color: #434343;
+}
+
+.listaDPS li div{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+	z-index: 2;
+	background-color: #fff;
+}
+
+.listaDPS li:hover > .departamentoMenu{
+	display: block;
+}

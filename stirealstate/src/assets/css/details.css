@@ -1,0 +1,108 @@
+.onList span{    left: -15%;}
+  .full-content>div{height: 100%;}
+  .pictures{padding: 0;position: relative;}
+  .pictures>div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .fracments{
+    width: 25%;
+    height: var(--h-fracments);
+    display: inline-block;
+    padding: 5px;
+    padding-right: 0px;
+  }
+  .fracment{
+    height: 20%;
+     width: 100%;
+    margin-bottom: 1.4%;
+    cursor: pointer;
+}
+.fracment>img{
+    height: 100%;
+    width: auto;
+    /* margin-top: 1%; */
+    padding: 1px;
+    border: 1px solid #707070;
+    /* left: 0; */
+}
+
+
+.full-picture{
+    width: 75%;
+    /* height: 10%; */
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    padding-left: 0px;
+  }
+  .full-picture img{
+    position: relative; 
+    width: 98.5%;
+    /* height: 90%; */
+    border: 1px solid #707070;
+    /* margin-right: 10px; */
+  }
+
+.info{
+  /*overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 2.1%;*/
+  overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 25px;
+}
+
+h1,h2,h4{font-family: var(--Fjalla);text-transform: uppercase; font-weight: bold; color: #242424;}
+h1{font-size: 190%;margin-top: 0px;    margin-bottom: 0;}
+h2{font-size: 150%; color: #333333; font-weight: normal;}
+h4{font-size: 20px; font-weight: normal;}
+
+.precio{color: #4B4B4B;font-family: "arial";font-size: 150%;}
+.talla{    margin-top: 6%;}
+.talla>p{font-family: "arial"; font-size: 124%; color: #333333;}
+.talla>p>a{font-size: 80%; color: #878787; text-decoration: underline;}
+.talla select{
+  width: 23%;
+    /* height: 20%; */
+    background: #FFFFFF;
+    font-size: 130%;
+    font-family: arial;
+    padding: 2%;
+    border: 1px solid #9E9E9E;
+}
+.talla button{
+  background: #F44817;
+  border: none;
+  font-size: 130%;
+    font-family: var(--Fjalla);
+    color: #FFFFFF;
+    padding: 2% 30px;
+    margin-left: 1%;
+}
+.oferta{font-size: 100%;margin-top: 5%;}
+.oferta p{font-family: arial;margin-bottom: 2%;}
+.oferta strong{font-family: var(--roboto);}
+.oferta img{margin-right: 14px;}
+
+.descripcion{margin-top: 9%;margin-bottom: 27px;}
+.descripcion p{font-family: var(--roboto); font-size: 130%; color: #000000; margin-top: 22px; font-weight: lighter;}
+
+.detalles p{font-family: var(--roboto); font-size: 98%; font-weight: bold; color: #000000;}
+.productos{margin-top: 9%;margin-bottom: 250px;}
+.productos>.row{text-align: center; position: relative;margin: 0;}
+.productos>.row>div{padding-left: 0;padding-right: 10px;}
+.productos img{width: 80%;}
+.productos h3{font-family: var(--Fjalla); font-size: 120%; color: #242424; text-transform: uppercase;}
+.productos span{font-family: var(--roboto); font-size: 120%; color: #454545;}
+
+.degradado{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    z-index: auto;
+}

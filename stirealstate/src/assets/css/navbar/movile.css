@@ -1,0 +1,109 @@
+
+@media (max-width: 1000px) { 
+
+    .profile__web{
+        display: none;
+    }
+    
+    .openButton, .profile__movile, .closeButton{
+        display: flex!important;
+    }
+
+    .navbar-container__controll{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        padding: 1em 0;
+    }
+    
+    .menu-options__table{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        width: 65%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -200%;
+        z-index: 4;
+        background: #fff;
+    }
+
+    .menu-options__table::before{
+        content: "";
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        background: rgba(0,0,0,.5);
+    }
+
+    .menu-option-table__child{
+        padding: 1em .5em;
+    }
+
+    .closeButton{
+        padding: 1em;
+    }
+
+    .profile__movile{
+        margin: 1em 0 !important;
+        position: relative;
+    }
+
+    .profile__movile::before{
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 1px;
+        bottom: -10%;
+        right: 5%;
+        background: #C6C6C6;
+    }
+
+    .submenu{
+        text-align: right;
+        margin-top: 1em;
+        cursor: default !important;
+    }
+
+    .shadow__bottom{
+        position: relative;
+    }
+
+    .shadow__bottom::before{
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 1px;
+        bottom: -13%;
+        right: 5%;
+        background: #C6C6C6;
+    }
+
+    .submenu-options__table{
+        position: relative;
+        top: 0;
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 1em;
+        background: none !important;
+    }
+
+    .submenu-option-table__child{
+        padding: 1em 0 1em 0;
+    }
+
+    .icon__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+

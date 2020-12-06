@@ -1,0 +1,15 @@
+.submenu{
+    cursor: pointer;
+    position: relative;
+}
+
+.submenu-options__table{
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    display: none;
+}
+
+.submenu-option-table__child{
+    padding: 1em;
+}

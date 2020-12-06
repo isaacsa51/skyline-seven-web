@@ -1,0 +1,127 @@
+.movile__help{
+    display: none !important;
+}
+
+.separator_phone, .separator__mail, .footer-body{
+    position: relative;
+}
+
+.footer-main, .footer-body{
+    width: 100%;
+}
+
+.footer-header{
+    width: 100%;
+    background: #EEEEEE;
+}
+
+.footer-header__controll{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin: auto;
+}
+
+.footer-header__title{
+    width: 40%;
+    margin: 0 1em;
+}
+
+.footer-header__help{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 1em;
+    color: #3D7797;
+}
+
+.separator_phone::before, .separator__mail::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    position: absolute;
+    top: 30%;
+    right: 100%;
+    transform: rotate(90deg);
+    background: #C6C6C6;
+}
+
+.separator_phone::before{
+    width: 10%;
+    top: 45%;
+}
+
+.separator__mail::before{
+    width: 6%;
+    top: 45%;
+}
+
+.footer-body__title{
+    font-size: 1.2em;
+}
+
+.question{
+    color: #333333;
+}
+
+.footer-body::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #FA6320;
+}
+
+.footer-body__controller{
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section{
+    width: 33%;
+    height: 15vh;
+    margin: 1em 0 2em 0;
+}
+
+.footer-body__title{
+    display: flex;
+    padding: .2em 0;
+    width: 100%;
+}
+
+.footer-body__content{
+    width: 100%;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+    white-space: nowrap;
+}
+
+.footer-body__content > a{
+    padding: .2em 0;
+}
+
+.footer-body__logo{
+    height: 100% !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer-body-logo__controll{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}

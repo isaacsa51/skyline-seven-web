@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/* --CSS Reseter
+Basado en: Yahoo UI Reset CSS, Eric Meyer's Reworked Reset y experiencias personales
+-- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline}
+:focus{outline:0}
+::-moz-focus-inner{border:0}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:normal}
+a img,iframe{border:none}
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ul,ol{margin-left:2em}
+ol{list-style:decimal}
+ul{list-style:disc}
+input,textarea,select,button{font-size:100%;font-family:inherit}
+select{margin:0}
+h1,h2,h3,h4{font-weight:bold;margin-bottom:0.5em}
+h1{font-size:1.3em}
+h2{font-size:1.2em}
+h3{font-size:1.1em}
+h4{font-size:1em}
+h5{font-size:1em;}
+strong{font-weight:bold}
+em{font-style:italic}
+fieldset{border:1px solid #000}
+/* clearfix */
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+
+
+
+/*Icomoon*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon-lp/icomoon.eot?174q51');
+  src:  url('../fonts/icomoon-lp/icomoon.eot?174q51#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon-lp/icomoon.ttf?174q51') format('truetype'),
+    url('../fonts/icomoon-lp/icomoon.woff?174q51') format('woff'),
+    url('../fonts/icomoon-lp/icomoon.svg?174q51#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-thin-right:before {
+  content: "\e903";
+}
+.icon-chevron-thin-left:before {
+  content: "\e904";
+}
+.icon-close:before {
+  content: "\e902";
+}
+.icon-upload:before {
+  content: "\e900";
+}
+.icon-fullscreen:before {
+  content: "\e901";
+}
+
+
+/*style.css*/
+body{color: #333333;font-family: 'Roboto', sans-serif;background: #fff;max-width: 850px;margin: 0 auto;font-weight: 400;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+figure{margin: 0}
+ul li{list-style: none}
+ul,ol{margin: 0}
+h2,h1,h3,h4,h5,h6{font-size: inherit;margin-bottom: 0;font-weight: normal;}
+img{vertical-align: middle}
+select::-ms-expand { display: none;}
+select { -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none; }
+/*Generales*/
+.btn1{font-family: 'Fjalla One', sans-serif;background: #FF4800;text-align: center;border: none;font-size: 16px;line-height: 40px;color: #FFFFFF;padding: 0 19px;height: 40px;display: inline-block;line-height: 40px;text-transform: uppercase;text-decoration: none;}
+.btn1:hover{color: #fff;text-decoration: none;background: #ce3a00}
+.title{font-size: 18px;font-family: 'Fjalla One', sans-serif;text-align: center;margin-bottom: 7px;text-transform: uppercase;}
+.title2{font-size: 18px;font-weight: 700;margin-bottom: 7px;text-align: left;}
+/*Logo*/
+.logo{width: 33px;position: absolute;z-index: 2;top:25px;left: 25px;}
+/*Video*/
+.video-container{position: relative;display: flex;align-items: center; height:447px; overflow:hidden;}
+.video-container:before{content: '';width: 100%;height: 100%;background: rgba(0,0,0,.3);position: absolute;left: 0;top: 0}
+.video-container.hideshadow:before{display:none;}
+.video-container .icon-fullscreen{position: absolute;color: #fff;z-index: 2;bottom: 16px;right: 16px;font-size: 42px;}
+.video{width: 100%}
+.video-text{color: #fff;font-family: 'Fjalla One', sans-serif;font-size: 25px;position: absolute;right: 0;left: 0;text-align: center;text-transform: uppercase;}
+/*Text container*/
+.text-container{padding: 21px 37px 54px;}
+.paragraph{font-size: 13px;line-height: 16px;text-align: center;}
+/*Imagen de producto*/
+.img-product{width: 100%}
+/*Slide*/
+.slide-product img{width: 100%;}
+.swiper-pagination{position: static;margin-top: -1px;}
+.swiper-pagination-bullet{width: 6px;height: 6px;background: #C6C6C6;opacity: 1;margin: 0 5px!important;}
+.swiper-pagination-bullet-active{background: #F44817;}
+.counter{background: rgba(0,0,0,.6);padding: 0 7px;border-radius: 20px;position: absolute;top: 25px;right: 25px;height: 20px;line-height: 20px;font-size: 10px;font-weight: 300;color: #fff;display: inline-block;z-index: 1}
+/*Details*/
+.details{padding: 15px 20px 86px;text-align: center;}
+.details .btn1{margin-top: 31px}
+.list {text-align: left;}
+.list li{font-size: 13px;list-style: inside;margin-bottom: 11px;line-height: 16px;}
+.tofront{z-index:1;}
+.logo.tofront{z-index:2;}
+.linkadjunto{color:#2E96EB; font-size:14px; text-decoration: none;}
+.linkadjunto img{margin-left:6px; height:20px;}
+.linkadjunto:after{content:''; background-image:url('../img/pdf-adjunto.png');}
+.linkadjunto:visited{color:#2E96EB}
+.con-linkadjunto{width:100%; padding:30px 0px; text-align: center;}

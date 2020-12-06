@@ -1,0 +1,117 @@
+.headMenuLateral{
+    height: 75px;
+    margin-top: 33px;
+    margin-left: var(--lad-menu-lat);
+}
+
+.closemenu{
+    position: relative;
+    font-family: var(--roboto);
+    color: #242424;
+    cursor: pointer;
+    text-align: center;
+    width: 72px;
+}
+.closemenu img{height: 25px;}
+.closemenu span{display: block;font-weight: 300;font-size: 0.92em;margin-top: -5px;}
+.closemenu .icon-close{font-size: 33px;}
+
+.bodyMenuLateral{
+    max-height: calc(100% - 108px);
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*first content*/
+.bodyMenuLateral ul{
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+}
+.opMenu>li{
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+}
+.opMenu>li>a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*second content*/
+.subMenu-item{
+    -webkit-padding-start: 15px!important;
+}
+.subMenu-item>li>a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.subMenu-item>li, .subMenu-cont>li{
+    height: auto;
+    padding-top: 15px;
+}
+.subMenu-cont>li>a{
+    font-size: 140%;
+    font-weight: lighter;
+}
+.subMenu-cont>li.subcat{padding-top: 19px;}
+.menuActive{
+    background: #F0F0F0;
+}
+
+.opMenu li ul{
+    display: none;
+    position: relative;
+}
+.subMenu-item .selct{
+    background: #000;
+    width: 5px;
+    height: 15px;
+    position: absolute;
+    margin-top: 7px;
+    left: 0;
+}
+
+.bodyMenuLateral a{
+    text-decoration: none;
+    font-family: var(--roboto);
+    color: #242424;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1500;
+}
+
+.bodyMenuLateral::-webkit-scrollbar-track
+{   background-color: #969696;
+    border-radius: 15px;
+    box-shadow: 0px 0px 0.16px #000000;
+    border-radius: 15px;
+    border: px solid #707070;
+}
+
+.bodyMenuLateral::-webkit-scrollbar{   
+    position: absolute;
+    width: 3.5%;
+    background-color: transparent;
+}
+
+.bodyMenuLateral::-webkit-scrollbar-thumb{   
+    background-color: #777777;
+    border: 1px solid #969696;
+    border-radius: 15px;
+}

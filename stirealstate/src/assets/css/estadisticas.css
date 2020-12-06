@@ -1,0 +1,9 @@
+.container{width: 100%;margin: 0;padding: 0;}
+.encabezado-estadisticas{width: 100%; margin:30px 0 10px;}
+/*.encabezado-estadisticas select{height: 26px; margin-right: 60px;}
+.encabezado-estadisticas #date_1{margin-right: 15px;}*/
+.encabezado-estadisticas #search{background-color: #337ab7;color: #fff;border: 0px;padding: 0 18px;}
+.encabezado-estadisticas div{display: inline-block;margin-right: 35px;}
+.encabezado-estadisticas input, select{height: 32px;}
+.encabezado-estadisticas label{display: block;}
+#containerThatGraphyc .tabla{padding: 20px 40px;}

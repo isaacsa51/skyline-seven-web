@@ -1,0 +1,50 @@
+body{
+    font-size: 20px;
+}
+
+.navbar{
+    height: 80px;
+}
+.container-fluid{
+    height: 100%;
+}
+.navbar-header-div{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+}
+.bold{
+    font-weight: bold;
+}
+.texto-normal{
+    font-size: 16px;
+}
+#aportaciones{
+    margin-top: 30px;
+}
+.bloque-aportaciones{
+    width: 49%;
+    display: inline-block;
+
+}
+.back-color{
+    background-color: #F5F5F5;
+}
+.bloque-ind-aportaciones{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+}
+.margin-15{
+    margin-top: 15px;;
+}
