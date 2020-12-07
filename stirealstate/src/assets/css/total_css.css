@@ -73,18 +73,8 @@ button.btn-inverted-out:hover{
     padding: 16px;
 }
 
-.navbar-inverse .navbar-brand{
-    padding: 0;
-    margin-bottom: 5px;
-    max-width: 100px;
-}
-
 .navbar-inverse.scrolled{
     background-color: #2C2C2C !important;
-}
-
-.navbar-inverse .navbar-toggle{
-    border: none;
 }
 
 .navbar-inverse .navbar-nav > li > a.active{
@@ -95,28 +85,7 @@ button.btn-inverted-out:hover{
     color: #fff;
     font-size: 18px;
     font-weight: 800;
-}
-
-.navbar-inverse .navbar-nav > li > a::after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-    top: 80%;
-    left: 0;
-    background: #fff;
-    transition: transform 0.5s;
-    transform: scaleX(0);
-    transform-origin: right;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover{
-    color: #fff;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+    margin: 15px;
 }
 
 /* Jumbotron */
