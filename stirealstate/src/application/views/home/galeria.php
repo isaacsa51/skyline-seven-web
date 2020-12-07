@@ -1,4 +1,4 @@
-<div class="galeria" id="galeria">
+<div class="galeria pt-4" id="galeria">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -9,16 +9,16 @@
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<img class="img-responsive" alt="" src="http://placehold.it/1200x400">
+							<img class="img-fluid" alt="" src="http://placehold.it/1200x400">
 						</div>
 						<div class="swiper-slide">
-							<img class="img-responsive" alt="" src="http://placehold.it/1200x400">
+							<img class="img-fluid" alt="" src="http://placehold.it/1200x400">
 						</div>
 						<div class="swiper-slide">
-							<img class="img-responsive" alt="" src="http://placehold.it/1200x400">
+							<img class="img-fluid" alt="" src="http://placehold.it/1200x400">
 						</div>
 						<div class="swiper-slide">
-							<img class="img-responsive" alt="" src="http://placehold.it/1200x400">
+							<img class="img-fluid" alt="" src="http://placehold.it/1200x400">
 						</div>
 					</div>
 				</div>

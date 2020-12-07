@@ -73,21 +73,15 @@ button.btn-inverted-out:hover{
     padding: 16px;
 }
 
-.navbar-inverse .navbar-brand{
-    padding: 0;
-    margin-bottom: 5px;
-    max-width: 100px;
+.navbar-inverse > button.navbar-toggler { 
+    background-color: #202020;
 }
 
 .navbar-inverse.scrolled{
     background-color: #2C2C2C !important;
 }
 
-.navbar-inverse .navbar-toggle{
-    border: none;
-}
-
-.navbar-inverse .navbar-nav > li > a.active{
+.navbar-inverse .navbar-nav > li > a.activo{
     border-bottom: 2px solid #fff;
 }
 
@@ -95,28 +89,7 @@ button.btn-inverted-out:hover{
     color: #fff;
     font-size: 18px;
     font-weight: 800;
-}
-
-.navbar-inverse .navbar-nav > li > a::after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-    top: 80%;
-    left: 0;
-    background: #fff;
-    transition: transform 0.5s;
-    transform: scaleX(0);
-    transform-origin: right;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover{
-    color: #fff;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+    margin: 15px;
 }
 
 /* Jumbotron */
@@ -151,20 +124,19 @@ button.btn-inverted-out:hover{
 }
 
 /* Modelos */
-.panel{
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.card {
+    border: none !important;
+    width: auto;
+    border-radius: 0 !important;
 }
 
-.panel-body{
-    padding: 0px 0px 0px 0px;
+.card > .card-body{
+    padding-left: 0;
 }
 
-.panel-footer{
-    border: none;
-    background-color: #fff;
-    padding: 10px 0px 0px 0px;
+/* Amenidades */
+#amenidades-info > .swiper-slide > a{
+    color: #000 !important;
 }
 
 /* Cita */

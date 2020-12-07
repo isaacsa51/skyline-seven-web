@@ -1,25 +1,24 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header" id="navbar">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-stirealstate" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-            <a class="navbar-brand" href="#">
-                <img src="../../../assets/img/navbar/icono-stirealstate.png" alt="Logo" class="img-responsive">
-            </a>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="../../../assets/img/navbar/icono-stirealstate.png" alt="Logo" class="img-fluid">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars" style="color: #fff;"></i>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbar-stirealstate">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#!" data-scroll="modelos">Modelos</a></li>
-                <li><a href="#!" data-scroll="amenidades">Amenidades</a></li>
-                <li><a href="#!" data-scroll="galeria">Galería</a></li>
-                <li><a href="#!" data-scroll="contacto">Contacto</a></li>
-            </ul>
-        </div>
-    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#!" data-scroll="modelos">Modelos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#!" data-scroll="amenidades">Amenidades</a>
+            </li>
+            <li class="nav-item">
+                <a href="#!" data-scroll="galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+                <a href="#!" data-scroll="contacto">Contacto</a>
+            </li>
+        </ul>
 </nav>
