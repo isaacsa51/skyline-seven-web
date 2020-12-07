@@ -12,9 +12,10 @@ class Modelo extends CI_Controller
     $this->load->view('propiedad-detalles/modelo-header.php');
     $this->load->view('propiedad-detalles/modelo-navbar.php');
     $this->load->view('propiedad-detalles/section-modelo.php');
-    $this->load->view('propiedad-detalles/section-Amenidades.php');
+    $this->load->view('propiedad-detalles/section-amenidades.php');
     $this->load->view('propiedad-detalles/section-formulario.php');
     $this->load->view('propiedad-detalles/section-otros.php');
-    $this->load->view('propiedad-detalles/modelo-footer.php');
+    $this->load->view('propiedad-detalles/modelo-footer-nav.php');
+    $this->load->view('propiedad-detalles/section-footer.php');
   }
 }

@@ -54,34 +54,8 @@
 				<br>
 				<label class="title-1">Cónoce este modelo</label>
 				<br>
-				<button typw="button" class="btn-date">Hacer una cita</button>
+				<button typw="button" class="btn-sti">Hacer una cita</button>
 			</div>
 		</div>
 	</div>
 </div>
-
-<!-- Initialize Swiper -->
-<script>
-	var galleryThumbs = new Swiper('.gallery-thumbs', {
-		spaceBetween: 10,
-		slidesPerView: 6,
-		loop: false,
-		freeMode: true,
-		loopedSlides: 6, //looped slides should be the same
-		watchSlidesVisibility: true,
-		watchSlidesProgress: true,
-	});
-
-	var galleryTop = new Swiper('.gallery-top', {
-		spaceBetween: 10,
-		loop: false,
-		loopedSlides: 6, //looped slides should be the same
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		thumbs: {
-			swiper: galleryThumbs,
-		},
-	});
-</script>
